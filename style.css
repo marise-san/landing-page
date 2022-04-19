@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
 
 body {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
     margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
 }
 
 .first-section {
@@ -32,7 +31,6 @@ body {
 ul {
     display: flex;
     list-style-type: none;
-    color: #e5e7eb;
     font-size: 18px;
     margin: 0;
     gap: 16px;
@@ -40,6 +38,11 @@ ul {
 
 a {
     text-decoration: none;
+    color: #e5e7eb;
+}
+
+a:hover {
+    cursor: pointer;
 }
 
 .first-section .content {
@@ -74,6 +77,10 @@ button {
     padding: 8px 32px;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .first-section .content .placeholder {
     display: flex;
     justify-content: center;
@@ -88,11 +95,9 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 .second-section .title {
-    flex: 1;
     margin: 40px;
     font-size: 36px;
     font-weight: 900;
@@ -101,7 +106,6 @@ button {
 
 .second-section .container {
     display: flex;
-    flex: auto;
     gap: 60px;
     text-align: center;
     padding: 0 300px 100px;
@@ -114,7 +118,6 @@ button {
 }
 
 .second-section .container .blank {
-    display: flex;
     border: 4px solid #3882f6;
     border-radius: 10px;
     padding: 80px;
@@ -125,3 +128,29 @@ button {
     color: #343435;
     margin-top: 8px;
 }
+
+.third-section {
+    display: flex;
+    padding: 100px 300px;
+    flex-wrap: wrap;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-section .text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: lefet
+}
+
+.third-section .author {
+    flex: 1;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f2937;
+    text-align: end;
+    padding: 0 50px;
+}
+
