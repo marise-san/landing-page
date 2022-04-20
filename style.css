@@ -8,6 +8,8 @@ body {
     box-sizing: border-box;
 }
 
+/* header section */
+
 .first-section {
     display: flex;
     flex-direction: column;
@@ -37,6 +39,7 @@ ul {
     gap: 16px;
 }
 
+/* links style */
 a {
     text-decoration: none;
     color: #e5e7eb;
@@ -45,6 +48,7 @@ a {
 a:hover {
     cursor: pointer;
 }
+/* --------- */
 
 .first-section .content {
     display: flex;
@@ -69,6 +73,7 @@ a:hover {
     color: #e5e7eb;
 }
 
+/* header and call to action buttons style */
 button {
     border: 1px solid #1f2937;
     border-radius: 10px;
@@ -82,6 +87,7 @@ button {
 button:hover {
     cursor: pointer;
 }
+/* --------------------------------------- */
 
 .first-section .content .placeholder {
     display: flex;
@@ -92,6 +98,8 @@ button:hover {
     font-size: 18px;
     flex: 1;
 }
+
+/* information section */
 
 .second-section {
     display: flex;
@@ -131,6 +139,8 @@ button:hover {
     margin-top: 8px;
 }
 
+/* quote section */
+
 .third-section {
     padding: 100px 300px;
     flex-wrap: wrap;
@@ -149,6 +159,8 @@ button:hover {
     color: #1f2937;
     text-align: end;
 }
+
+/* call to action section */
 
 .fourth-section {
     display: flex;
@@ -178,6 +190,7 @@ button:hover {
     font-size: 18px;
 }
 
+/* add different color to button's border on hover */
 .fourth-section .container .right button {
     border: 2px solid #f9faf8;
 }
@@ -185,6 +198,8 @@ button:hover {
 .fourth-section .container .right {
     margin-right: 80px;
 }
+
+/* footer section */
 
 .footer {
     display: flex;
