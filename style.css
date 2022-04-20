@@ -50,6 +50,7 @@ a:hover {
     display: flex;
     margin: 120px 0;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .first-section .left {
@@ -183,4 +184,23 @@ button:hover {
 
 .fourth-section .container .right {
     margin-right: 80px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 40px;
+}
+
+.footer .copyright {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    color: #e5e7eb;
+}
+
+.copyright a:hover {
+    color: #3882f6;
 }
