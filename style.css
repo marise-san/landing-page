@@ -5,6 +5,7 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
     height: 100vh;
+    box-sizing: border-box;
 }
 
 .first-section {
@@ -95,6 +96,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 100px 100px;
 }
 
 .second-section .title {
@@ -108,7 +110,6 @@ button:hover {
     display: flex;
     gap: 60px;
     text-align: center;
-    padding: 0 300px 100px;
 }
 
 .second-section .container .item {
@@ -139,7 +140,6 @@ button:hover {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
-    text-align: lefet
 }
 
 .third-section .author {
@@ -149,5 +149,38 @@ button:hover {
     text-align: end;
 }
 
+.fourth-section {
+    display: flex;
+    justify-content: center;
+}
 
+.fourth-section .container {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin: 80px 160px;
+    align-items: center;
+}
 
+.fourth-section .container .left {
+    margin: 40px 100px 40px 80px;
+}
+
+.fourth-section .container .left .title,
+.fourth-section .container .left .text {
+    color: #f9faf8;
+    font-size: 16px;
+}
+
+.fourth-section .container .left .title {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.fourth-section .container .right button {
+    border: 2px solid #f9faf8;
+}
+
+.fourth-section .container .right {
+    margin-right: 80px;
+}
